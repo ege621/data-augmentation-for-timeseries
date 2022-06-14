@@ -22,3 +22,5 @@ Considering that y is one hot encoded, it is repeated consecutively for every in
 
 The augmented dataset is stored purely on RAM before saving it. You might need to do some trial runs for the iterations variable before your RAM explodes. 
 
+Mind the structure of your folders and dataset file extensions. This pipeline will search for X and y under a folder called dataset, and it will search purely for previously saved numpy arrays with the extension .npy. It will save as .npy also. 
+
